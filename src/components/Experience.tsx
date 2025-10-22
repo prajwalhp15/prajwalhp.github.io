@@ -1,85 +1,61 @@
-import { Briefcase, Calendar } from "lucide-react";
+const projects = [
+  {
+    title: "Interactive Data Portfolio & LLM Assistant",
+    date: "In Progress",
+    highlights: [
+      "AI agent summarizing projects, datasets, and GitHub repos",
+      "Interactive dashboards with LLM integration",
+    ],
+    tech: ["Python", "React", "LangChain"]
+  },
+  {
+    title: "Social Good Mini-Apps",
+    date: "In Progress",
+    highlights: [
+      "Apps for disaster relief, traffic monitoring, accessibility",
+      "Focus on scalability and real-world impact",
+    ],
+    tech: ["React", "FastAPI", "Firebase"]
+  },
+  {
+    title: "Micro SaaS / Freelance Tool",
+    date: "In Progress",
+    highlights: [
+      "Small niche tools for local businesses or freelancers",
+      "Focus on automation, analytics dashboards, and efficiency",
+    ],
+    tech: ["React", "Node.js", "MongoDB"]
+  },
+];
 
-const Experience = () => {
+const InProgressWork = () => {
   return (
-    <section id="experience" className="py-20 px-4 relative">
-      <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-4 gradient-text">
-            Experience
-          </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full" />
-        </div>
+    <section id="in-progress" className="py-20 px-4">
+      <div className="max-w-6xl mx-auto text-center mb-12">
+        <h2 className="text-4xl font-bold gradient-text">In-Progress Work</h2>
+        <p className="text-muted-foreground mt-2">
+          Real-world projects currently under development, showcasing AI, web, and scalable solutions.
+        </p>
+      </div>
 
-        <div className="glass-panel p-8 md:p-10 hover-lift hover-glow-violet relative overflow-hidden">
-          <div className="absolute top-0 left-0 w-40 h-40 bg-gradient-to-br from-secondary/20 to-primary/20 rounded-full blur-3xl" />
-          
-          <div className="flex items-start gap-4 relative z-10">
-            <div className="p-3 rounded-xl bg-secondary/20 border border-secondary/30">
-              <Briefcase className="w-8 h-8 text-secondary" />
-            </div>
-            
-            <div className="flex-1">
-              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
-                <div>
-                  <h3 className="text-2xl font-display font-bold mb-1">
-                    Data Science Intern
-                  </h3>
-                  <p className="text-xl text-secondary font-semibold">
-                    Cognifyz Technologies
-                  </p>
-                </div>
-                <div className="flex items-center gap-2 text-muted-foreground mt-2 md:mt-0">
-                  <Calendar className="w-4 h-4" />
-                  <span>March 2025 – April 2025</span>
-                </div>
-              </div>
-
-              <div className="space-y-3 text-foreground/90">
-                <p className="leading-relaxed">
-                  Worked on comprehensive data science projects focusing on real-world business problems and data-driven insights.
-                </p>
-                
-                <div className="pl-4 border-l-2 border-primary/30 space-y-2">
-                  <div className="flex items-start gap-2">
-                    <span className="text-primary mt-1">▸</span>
-                    <p>Performed extensive <span className="text-primary font-semibold">data preprocessing</span> and <span className="text-secondary font-semibold">exploratory data analysis</span> on large datasets</p>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <span className="text-primary mt-1">▸</span>
-                    <p>Conducted <span className="text-primary font-semibold">geospatial analysis</span> and visualization to identify location-based patterns</p>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <span className="text-primary mt-1">▸</span>
-                    <p>Applied advanced <span className="text-secondary font-semibold">feature engineering</span> techniques to improve model performance</p>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <span className="text-primary mt-1">▸</span>
-                    <p>Built and deployed <span className="text-primary font-semibold">predictive models</span> for business forecasting</p>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <span className="text-primary mt-1">▸</span>
-                    <p>Created interactive <span className="text-secondary font-semibold">dashboards and visualizations</span> using Tableau and Power BI</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-6 flex flex-wrap gap-2">
-                {["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Seaborn", "Tableau", "Power BI"].map((skill) => (
-                  <span
-                    key={skill}
-                    className="px-3 py-1 rounded-full bg-card/50 border border-secondary/20 text-sm hover:border-secondary/50 transition-colors"
-                  >
-                    {skill}
-                  </span>
-                ))}
-              </div>
+      <div className="grid md:grid-cols-3 gap-6">
+        {projects.map((proj) => (
+          <div key={proj.title} className="p-6 bg-glass rounded-xl hover:shadow-lg transition">
+            <h3 className="font-bold text-xl mb-2">{proj.title}</h3>
+            <p className="text-muted-foreground mb-3">{proj.date}</p>
+            <ul className="mb-3 list-disc list-inside text-sm">
+              {proj.highlights.map((h, i) => <li key={i}>{h}</li>)}
+            </ul>
+            <div className="flex flex-wrap gap-1">
+              {proj.tech.map((t) => (
+                <span key={t} className="px-2 py-1 text-xs rounded bg-secondary/20">{t}</span>
+              ))}
             </div>
           </div>
-        </div>
+        ))}
       </div>
     </section>
   );
 };
 
-export default Experience;
+export default InProgressWork;

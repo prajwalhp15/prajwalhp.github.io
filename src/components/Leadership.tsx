@@ -30,7 +30,7 @@ const Leadership = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-4 gradient-text">
-            Leadership & Volunteering
+            Positions of Responsibility
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full" />
         </div>

@@ -9,7 +9,6 @@ const Footer = () => {
       
       <div className="max-w-6xl mx-auto text-center relative z-10">
         <p className="text-muted-foreground flex items-center justify-center gap-2 flex-wrap">
-          <span>Portfolio designed & developed by</span>
           <span className="font-display font-semibold gradient-text">Prajwal H P</span>
           <Heart className="w-4 h-4 text-primary animate-pulse inline" />
         </p>

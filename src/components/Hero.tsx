@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   const socialLinks = [
-    { icon: Mail, label: "Email", href: "mailto:prajwalhp@gmail.com", color: "hover-glow-violet" },
-    { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/prajwalhp", color: "hover-glow-cyan" },
-    { icon: Github, label: "GitHub", href: "https://github.com/prajwalhp", color: "hover-glow-violet" },
+    { icon: Mail, label: "Email", href: "mailto: prajwalhp15@gmail.com", color: "hover-glow-violet" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/prajwal-hp/", color: "hover-glow-cyan" },
+    { icon: Github, label: "GitHub", href: "https://github.com/prajwalhp15", color: "hover-glow-violet" },
     { icon: ExternalLink, label: "Portfolio", href: "#", color: "hover-glow-cyan" },
   ];
 
@@ -42,8 +42,9 @@ const Hero = () => {
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-          AIML Engineering Student passionate about building intelligent systems and deriving insights from data. 
-          Experienced in ML/NLP, Reinforcement Learning, and Full-Stack Development.
+         AIML Engineering Student passionate about turning ideas into intelligent solutions.
+Curious, driven, and always learning.
+Enjoys building impactful projects and collaborating with teams.
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">

@@ -14,10 +14,10 @@ const Contact = () => {
   });
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "prajwalhp@gmail.com", href: "mailto:prajwalhp@gmail.com" },
+    { icon: Mail, label: "Email", value: "prajwalhp15@gmail.com", href: "mailto:prajwalhp15@gmail.com" },
     { icon: Phone, label: "Phone", value: "+91 9620860511", href: "tel:+919620860511" },
-    { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/prajwalhp", href: "https://linkedin.com/in/prajwalhp" },
-    { icon: Github, label: "GitHub", value: "github.com/prajwalhp", href: "https://github.com/prajwalhp" },
+    { icon: Linkedin, label: "LinkedIn", value: "https://www.linkedin.com/in/prajwal-hp/", href: "https://www.linkedin.com/in/prajwal-hp/" },
+    { icon: Github, label: "GitHub", value: "https://github.com/prajwalhp15", href: "https://github.com/prajwalhp15" },
   ];
 
   const handleSubmit = (e: React.FormEvent) => {

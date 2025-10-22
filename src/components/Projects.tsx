@@ -13,7 +13,7 @@ const Projects = () => {
       fullDesc: "Advanced cyber threat detection system leveraging Deep Q-Network (DQN) reinforcement learning algorithms to identify and mitigate security threats in next-generation 6G networks. Utilizes Neo4j graph database for efficient threat relationship mapping and pattern recognition.",
       tech: ["Python", "DQN", "Neo4j", "Reinforcement Learning", "Network Security"],
       link: "#",
-      github: "#",
+      github: "https://github.com/prajwalhp15/cybersecurity-in-6G-Network",
       color: "from-primary to-primary-glow",
     },
     {
@@ -22,7 +22,7 @@ const Projects = () => {
       fullDesc: "Cutting-edge holographic display system featuring real-time gesture recognition powered by MediaPipe. Users can interact with 3D holographic objects through intuitive hand gestures, with integrated audio controls and speech recognition for seamless multimodal interaction.",
       tech: ["MediaPipe", "Three.js", "JavaScript", "Computer Vision", "WebGL"],
       link: "#",
-      github: "#",
+      github: "https://github.com/prajwalhp15/Hologramarcade3D",
       color: "from-secondary to-secondary-glow",
     },
     {
@@ -31,7 +31,7 @@ const Projects = () => {
       fullDesc: "Comprehensive car price prediction system utilizing advanced regression algorithms. Features SHAP (SHapley Additive exPlanations) integration for model interpretability, allowing users to understand the factors influencing price predictions. Deployed as an interactive web application using Streamlit.",
       tech: ["Python", "Machine Learning", "SHAP", "Streamlit", "Regression"],
       link: "#",
-      github: "#",
+      github: "https://github.com/prajwalhp15/ExplainMyCar",
       color: "from-primary to-secondary",
     },
     {
@@ -40,7 +40,7 @@ const Projects = () => {
       fullDesc: "Smart web application for evaluating rooftop rainwater harvesting potential. Provides detailed feasibility analysis, automated recommendation reports, cost-benefit analysis, and government subsidy eligibility assessment. Aims to promote sustainable water management practices.",
       tech: ["React", "Flask", "MongoDB", "Data Analytics", "Environmental Tech"],
       link: "#",
-      github: "#",
+      github: "https://github.com/prajwalhp15/Rainwise",
       color: "from-secondary to-primary",
     },
     {

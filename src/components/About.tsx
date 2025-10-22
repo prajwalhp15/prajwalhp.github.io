@@ -13,26 +13,20 @@ const About = () => {
           <h3 className="text-2xl font-display font-semibold mb-6 text-primary">
             Professional Summary
           </h3>
-          <p className="text-lg leading-relaxed text-foreground/90">
-            AIML engineering student with hands-on experience in <span className="text-primary font-semibold">ML/NLP systems</span>, 
-            <span className="text-secondary font-semibold"> reinforcement learning</span>, and <span className="text-primary font-semibold">full-stack development</span>. 
-            Skilled in Python, Flask, MongoDB, Tableau, and Power BI. Strong interest in Data Science, Analytics, and AI-driven problem solving. 
-            Active hackathon participant and volunteer leader with a passion for creating impactful technological solutions.
-          </p>
+         <p className="text-lg leading-relaxed text-foreground/90">
+  I’m an <span className="font-semibold">AIML Engineering student</span> passionate about building intelligent systems and uncovering insights from data.  
+  I have hands-on experience in <span className="text-primary font-semibold">ML/NLP systems</span>, 
+  <span className="text-secondary font-semibold"> Reinforcement Learning</span>, and <span className="text-primary font-semibold">Full-Stack Development</span>, 
+  and have contributed to <span className="text-secondary font-semibold">real-world commercial projects</span>.  
+  I enjoy participating in hackathons, leading initiatives, and creating projects that make an impact.  
+  I love exploring new technologies, experimenting with AI solutions, and finding creative ways to solve real-world problems.  
+  My goal is to build meaningful applications that combine innovation with practical value.
+</p>
+
           
           <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="text-center p-4 rounded-xl bg-primary/10 border border-primary/20">
-              <div className="text-3xl font-display font-bold text-primary mb-2">5+</div>
-              <div className="text-sm text-muted-foreground">Major Projects</div>
-            </div>
-            <div className="text-center p-4 rounded-xl bg-secondary/10 border border-secondary/20">
-              <div className="text-3xl font-display font-bold text-secondary mb-2">4+</div>
-              <div className="text-sm text-muted-foreground">Certifications</div>
-            </div>
-            <div className="text-center p-4 rounded-xl bg-primary/10 border border-primary/20">
-              <div className="text-3xl font-display font-bold text-primary mb-2">3</div>
-              <div className="text-sm text-muted-foreground">Leadership Roles</div>
-            </div>
+           
+            
           </div>
         </div>
       </div>

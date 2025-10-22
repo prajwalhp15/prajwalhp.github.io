@@ -4,7 +4,7 @@ const Achievements = () => {
   const achievements = [
     "Participated in Smart India Hackathon 2025",
     "Participated in DBMS Hackathon",
-    "2nd Place - Hack Yugma Hackathon",
+    "2nd Place - Hack Yugma state level Hackathon, JNNCE Shivamogga",  
     "Contributed to NITK Cyber Knowledge Graph Bootcamp (Honeywell-supported)",
     "Student Coordinator at IEEE AMATHE 2025",
   ];
